@@ -1,0 +1,48 @@
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\RSS Ticker Beta.exe.config
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\RSS Ticker Beta.exe
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\RSS Ticker Beta.pdb
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.csprojResolveAssemblyReference.cache
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerItemElement.g.cs
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\App.g.cs
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta_MarkupCompile.cache
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta_MarkupCompile.lref
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerItemElement.baml
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.g.resources
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS_Ticker_Beta.Properties.Resources.resources
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.csproj.GenerateResource.Cache
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.csproj.CoreCompileInputs.cache
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.exe
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.pdb
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\RSS Ticker Beta.exe.config
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\RSS Ticker Beta.exe
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\RSS Ticker Beta.pdb
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.csprojResolveAssemblyReference.cache
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerItemElement.g.cs
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\App.g.cs
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta_MarkupCompile.cache
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta_MarkupCompile.lref
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerItemElement.baml
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.g.resources
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS_Ticker_Beta.Properties.Resources.resources
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.csproj.GenerateResource.Cache
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.csproj.CoreCompileInputs.cache
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.exe
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\RSS Ticker Beta.pdb
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\CsvHelper.dll
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\CsvHelper.xml
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerWindow.g.cs
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\watchLater.g.cs
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerWindow.baml
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\watchLater.baml
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\App.baml
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\Settings.g.cs
+\\dykehouse.campus.stockton\dfs$\11Data$\MMcKay215\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\Settings.baml
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\CsvHelper.dll
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\bin\Debug\CsvHelper.xml
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\Settings.g.cs
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerWindow.g.cs
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\watchLater.g.cs
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\App.baml
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\Settings.baml
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\TickerWindow.baml
+C:\Users\CamoAssassin.Morg-PC\Desktop\RSS Ticker Beta Build\RSS Ticker Beta\obj\Debug\watchLater.baml

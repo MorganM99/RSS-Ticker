@@ -1,0 +1,101 @@
+﻿<Window x:Class="RSS_Ticker_Release.watchLater"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RSS_Ticker_Release"
+        mc:Ignorable="d"
+        Title="watchLater" Height="700" Width="1100" MaxHeight="700" MaxWidth="1100" Closing="watchLater_Close"
+        ResizeMode="CanMinimize">
+        <!-- Window definitions-->
+
+    <Window.Resources>
+        <DataTemplate x:Key="CheckBoxCell">
+            <CheckBox IsChecked="{Binding Path=IsSelected, 
+                RelativeSource={RelativeSource FindAncestor,
+                AncestorType={x:Type ListViewItem}}}"/>
+        </DataTemplate>
+        <!-- Checkbox data template is defined as in the Settings window,
+             binding to the IsSelected property of the ListView-->
+
+        <Style x:Key="CheckBoxListviewStyle" TargetType="{x:Type ListViewItem}">
+            <Style.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}"
+                            Color="White" />
+                <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}"
+                            Color="White" />
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}"
+                            Color="Black" />
+                <SolidColorBrush x:Key="{x:Static SystemColors.ControlTextBrushKey}"
+                            Color="Black" />
+            </Style.Resources>
+            <Setter Property="Focusable" Value="False" />
+        </Style>
+        <!-- The styling information is also carried over from the Settings
+             window for consistent aesthetics-->
+        
+    </Window.Resources>
+
+    <!-- This canvas contains the elements of the WatchLater window-->
+    <Canvas>
+        
+        <Grid HorizontalAlignment="Left" Height="615" Width="1000" MaxHeight="615" MaxWidth="1000">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1000*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <!--The grid contains the ListView and buttons -->
+
+        <ListView Grid.Column="0" Width="1050" Height="615" MaxHeight="615" MaxWidth="1050" x:Name="itemList"
+                      ItemContainerStyle="{DynamicResource CheckBoxListviewStyle}" SelectionMode="Extended">
+            <!-- The ListView provides a scrollable list type object to display saved items in-->
+
+            <ListView.View>
+
+                <!-- A gridView is then embedded to provide a tabular display of data-->
+                <GridView>
+                    
+                    <!--Data is binded to the appropriate column-->
+                    <GridViewColumn Header="Title" Width="250" DisplayMemberBinding="{Binding Title}"/>
+
+                    <GridViewColumn Header="Description" Width="250" DisplayMemberBinding="{Binding Description}" />
+
+
+                    <!--The link column uses a cell and datatemplate to embed a hyperlink-->
+                    <GridViewColumn Header="Link" Width="230">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextWrapping="NoWrap">
+                                    <Hyperlink NavigateUri="{Binding Link}" RequestNavigate="Navigate">
+                                        <TextBlock Text="{Binding Link}"/>
+                                    </Hyperlink>
+		                        </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+
+                    <GridViewColumn Header="Publication Date" Width="150" DisplayMemberBinding="{Binding PubDate}"/>
+                    <GridViewColumn Header="Rating" Width="90" DisplayMemberBinding="{Binding Rating}"/>
+                    
+                    <GridViewColumn Header="Delete?" CellTemplate="{StaticResource CheckBoxCell}" Width="90"></GridViewColumn>
+                    <!--The last header implements the CheckBox defined above-->
+                    
+                </GridView>
+
+            </ListView.View>
+            
+        </ListView>
+        
+        <Button Content="Delete all selected" Height="39" MaxHeight="39" MaxWidth="193"
+                Canvas.Left="29" Canvas.Top="620" Width="193" Click="deleteAllChecked"
+                ToolTip="Deletes all checkmarked items in the list"/>
+        <!--This button deletes all checked news feeds-->
+        
+        <Button Content="Save database and exit" Height="39" MaxHeight="39" Canvas.Left="857"
+                Canvas.Top="620" Width="193" MaxWidth="193" Click="closeWindow"
+                ToolTip="Saves changes to the database and exits"/>
+        <!--This button will call the closing confirmation dialog-->
+        
+    </Canvas>
+</Window>

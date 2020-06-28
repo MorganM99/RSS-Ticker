@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSS Ticker", "RSS Ticker Beta\RSS Ticker.csproj", "{5747C1A4-9B9C-4587-847C-6C880F1A9104}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Ticker Setup", "Ticker Setup\Ticker Setup.vdproj", "{3C64CFA2-06D5-4CF3-AADC-D435D32046A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5747C1A4-9B9C-4587-847C-6C880F1A9104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5747C1A4-9B9C-4587-847C-6C880F1A9104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5747C1A4-9B9C-4587-847C-6C880F1A9104}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5747C1A4-9B9C-4587-847C-6C880F1A9104}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3C64CFA2-06D5-4CF3-AADC-D435D32046A0}.Debug|Any CPU.ActiveCfg = Debug
+		{3C64CFA2-06D5-4CF3-AADC-D435D32046A0}.Debug|Any CPU.Build.0 = Debug
+		{3C64CFA2-06D5-4CF3-AADC-D435D32046A0}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB879F9B-1469-463B-A4DD-CE6F2CFEF511}
+	EndGlobalSection
+EndGlobal

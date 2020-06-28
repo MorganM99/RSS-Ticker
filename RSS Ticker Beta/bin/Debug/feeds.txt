@@ -1,0 +1,8 @@
+http://feeds.bbci.co.uk/news/uk/rss.xml?edition=uk
+http://rss.cnn.com/rss/edition.rss
+http://feeds.foxnews.com/foxnews/science
+http://feeds.skynews.com/feeds/rss/us.xml
+https://www.forbes.com/most-popular/feed/
+https://www.sciencedaily.com/rss/top/science.xml
+http://www.nytimes.com/services/xml/rss/nyt/Sports.xml
+http://www.dailymail.co.uk/articles.rss

@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="RSS_Ticker_Release.TickerItemElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:properties="clr-namespace:RSS_Ticker_Release.Properties"
+             xmlns:local="clr-namespace:RSS_Ticker_Release"
+             mc:Ignorable="d" 
+             d:DesignHeight="480" d:DesignWidth="640" Height="90">
+
+    <Grid>
+        
+        <!-- A context menu is added to each tickerItem element allowing them to be added
+        to the watchLater database-->
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Watch Later" Click="MenuItem_Click"/>
+            </ContextMenu>
+        </Grid.ContextMenu>
+        
+        <!-- The title has a hyperlink embedded in it using databinding to the stored link-->
+        <TextBlock Foreground="#00ABA9" Height="35" Margin="0,10,0,1" TextWrapping="NoWrap" VerticalAlignment="Top">
+        <Hyperlink NavigateUri="{Binding Path=FeedItem.Link}" RequestNavigate="Navigate">
+                    <TextBlock Text="{Binding Path=FeedItem.Title}" Foreground="#00ABA9"
+                               FontSize="{Binding Source={x:Static properties:Settings.Default},
+                        Path=tickerFont}"/>
+        </Hyperlink>
+		            </TextBlock>
+
+        <TextBlock Text="{Binding Path=FeedItem.PubDate}" Margin="0,29,0,10" Foreground="#FF939393" TextWrapping="NoWrap" 
+                   FontSize="{Binding Source={x:Static properties:Settings.Default},
+                        Path=tickerFont}"/>
+        <TextBlock Text="{Binding Path=FeedItem.Description}" Margin="0,45,0,10" Foreground="#F09609" TextWrapping="NoWrap" 
+                   FontSize="{Binding Source={x:Static properties:Settings.Default},
+                        Path=tickerFont}"/>
+    </Grid>
+    <!-- Within the grid, several text blocks are defined. The title is at the top, followed by the publication date and
+    a description of the article. The font size is set with a one way binding to the Settings.Default namespace, and
+    then to the tickerFont property. The colours chosen for each field help them contrast-->
+    
+</UserControl>

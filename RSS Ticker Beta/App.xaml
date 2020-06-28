@@ -1,0 +1,11 @@
+﻿<Application x:Class="RSS_Ticker_Release.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:properties="clr-namespace:RSS_Ticker_Release.Properties"
+             ShutdownMode="OnLastWindowClose"
+             Startup="Ticker_Startup">
+
+    <Application.Resources>
+        
+    </Application.Resources>
+</Application>
